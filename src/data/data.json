@@ -1,0 +1,164 @@
+{
+  "videojuegos": [
+    {
+      "id": 1,
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "year": 2017,
+      "developer": "Nintendo",
+      "poster": "https://zelda.nintendo.com/breath-of-the-wild/assets/img/media/wallpaper-1-thumb.jpg",
+      "genres": ["Aventura", "Acción"]
+    },
+    {
+      "id": 2,
+      "title": "Red Dead Redemption 2",
+      "year": 2018,
+      "developer": "Rockstar Games",
+      "poster": "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/412c4e81bfb9766775423d6ef4d344c9.jpg",
+      "genres": ["Aventura", "Acción", "Mundo abierto"]
+    },
+    {
+      "id": 3,
+      "title": "The Witcher 3: Wild Hunt",
+      "year": 2015,
+      "developer": "CD Projekt",
+      "poster": "https://cdn-s-thewitcher.cdprojektred.com/witcher3/backgrounds/characters-geralt-1.jpg",
+      "genres": ["RPG", "Aventura", "Fantasía"]
+    },
+    {
+      "id": 4,
+      "title": "Fortnite",
+      "year": 2017,
+      "developer": "Epic Games",
+      "poster": "https://cdn2.unrealengine.com/subs-drakonsteel-announcewebblog-desktopheader-1920x1080-1920x1080-54f130f2359a.jpg",
+      "genres": ["Battle Royale", "Shooter"]
+    },
+    {
+      "id": 5,
+      "title": "Minecraft",
+      "year": 2011,
+      "developer": "Mojang",
+      "poster": "https://www.minecraft.net/content/dam/minecraft/home/home-hero-1200x600.jpg",
+      "genres": ["Sandbox", "Aventura"]
+    },
+    {
+      "id": 6,
+      "title": "Overwatch",
+      "year": 2016,
+      "developer": "Blizzard Entertainment",
+      "poster": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt84ca46ba2606a5ed/6504ca8bf50ed52bc6eb1cc8/Heroes.jpg?format=webply&quality=90",
+      "genres": ["Shooter", "Multijugador"]
+    },
+    {
+      "id": 7,
+      "title": "Assassin's Creed Odyssey",
+      "year": 2018,
+      "developer": "Ubisoft",
+      "poster": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/67R940C1t8mi1aNdFXbAdX/0e62c770278cdec76ee4da95c2defa8f/storycreatormode_header_351164.jpg",
+      "genres": ["Aventura", "Acción", "Histórico"]
+    },
+    {
+      "id": 8,
+      "title": "FIFA 22",
+      "year": 2021,
+      "developer": "EA Sports",
+      "poster": "https://media.tycsports.com/files/2021/08/27/324585/fifa-22-demo_862x485.jpg",
+      "genres": ["Deportes", "Simulación"]
+    },
+    {
+      "id": 9,
+      "title": "Stardew Valley",
+      "year": 2016,
+      "developer": "ConcernedApe",
+      "poster": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/04/583448-stardew-valley-ha-vendido-millon-copias-dos-meses.jpg",
+      "genres": ["Simulación", "RPG"]
+    },
+    {
+      "id": 10,
+      "title": "Super Mario Odyssey",
+      "year": 2017,
+      "developer": "Nintendo",
+      "poster": "https://i0.wp.com/losreyesdelmando.com/wp-content/uploads/2017/11/super-mario-odyssey-1.jpg",
+      "genres": ["Plataformas", "Aventura"]
+    },
+    {
+      "id": 11,
+      "title": "Cyberpunk 2077",
+      "year": 2020,
+      "developer": "CD Projekt",
+      "poster": "https://i.blogs.es/b109e9/cyberpunk2077-johnny-v-rgb_en/1366_2000.jpg",
+      "genres": ["RPG", "Ciencia ficción"]
+    },
+    {
+      "id": 12,
+      "title": "Rocket League",
+      "year": 2015,
+      "developer": "Psyonix",
+      "poster": "https://rocketleague.media.zestyio.com/rl_s12_core_16-9_rush.jpg",
+      "genres": ["Deportes", "Conducción"]
+    },
+    {
+      "id": 13,
+      "title": "League of Legends",
+      "year": 2009,
+      "developer": "Riot Games",
+      "poster": "https://prod.assets.earlygamecdn.com/images/League-of-Legends-Logo.jpg",
+      "genres": ["MOBA", "Estrategia"]
+    },
+    {
+      "id": 14,
+      "title": "Genshin Impact",
+      "year": 2020,
+      "developer": "miHoYo",
+      "poster": "https://www.mundodeportivo.com/alfabeta/hero/2020/09/genshin-impact.jpg",
+      "genres": ["RPG", "Aventura"]
+    },
+    {
+      "id": 15,
+      "title": "Call of Duty: Warzone",
+      "year": 2020,
+      "developer": "Infinity Ward",
+      "poster": "https://generacionxbox.com/wp-content/uploads/2022/09/call-of-duty-warzone-2021_3840x2160_xtrafondos.com-1.jpg",
+      "genres": ["Battle Royale", "Shooter"]
+    },
+    {
+      "id": 16,
+      "title": "Animal Crossing: New Horizons",
+      "year": 2020,
+      "developer": "Nintendo",
+      "poster": "https://img.asmedia.epimg.net/resizer/0fYBZfyk3BrNq9tmKCfQVzmTecY=/644x362/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/QY5A7B2J45OFJHQVI6R37JBGFY.jpg",
+      "genres": ["Simulación", "Vida virtual"]
+    },
+    {
+      "id": 17,
+      "title": "Hollow Knight",
+      "year": 2017,
+      "developer": "Team Cherry",
+      "poster": "https://media.vandal.net/i/1280x720/10-2023/19/202310192349115_5.jpg",
+      "genres": ["Metroidvania", "Aventura"]
+    },
+    {
+      "id": 18,
+      "title": "Dark Souls III",
+      "year": 2016,
+      "developer": "FromSoftware",
+      "poster": "https://assetsio.reedpopcdn.com/souls-week-revisiting-dark-souls-3-the-dark-souls-3-of-dark-souls-1645011212983.jpg",
+      "genres": ["Acción", "RPG"]
+    },
+    {
+      "id": 19,
+      "title": "Among Us",
+      "year": 2018,
+      "developer": "InnerSloth",
+      "poster": "https://www.mundodeportivo.com/alfabeta/hero/2020/11/among-us-guia-completa.jpg?width=1200&aspect_ratio=16:9",
+      "genres": ["Multijugador", "Traición"]
+    },
+    {
+      "id": 20,
+      "title": "Persona 5",
+      "year": 2016,
+      "developer": "Atlus",
+      "poster": "https://assetsio.reedpopcdn.com/persona-5-review-1490792190957.jpg",
+      "genres": ["RPG", "Simulación social"]
+    }
+  ]
+}
