@@ -22,10 +22,25 @@ export class GamesCT {
         const isValidID = isValidUUID(id);
         if (!isValidID) return res.status(400).json({ message: "Not Valid Id" });
         const result = await GamesMd.deleteOne(id);
-        if (result === 0) {
-            res.status(404).json({ message: "Game Not Found" });
-        } else {
-            res.status(204).json({message: "Movie Delete"});
-        }
+        if (!result) return res.status(404).json({ message: "Game Not Found" });
+        res.status(204);
     }
+    static async updateOne(req, res) {
+        const { id } = req.params;
+        const isValidID = isValidUUID(id);
+        if (!isValidID) return res.status(400).json({ message: "Not Valid Id" });
+        const [isGame, _info] = await GamesMd.getById(id);
+        if (!isGame) return res.status(404).json({ message: "Game Not Found" });
+        const updateGame = await GamesMd.updateOne(id, req.body);
+        updateGame ?
+            res.status(200).json({message:"Game Updated"})
+            :
+            res.status(404).json({ message: "Internal Server Error" });
+
+
+
+    }
+
 }
+
+// const {title, year, poster, developer, genre} = req.body;
