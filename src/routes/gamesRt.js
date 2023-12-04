@@ -10,4 +10,4 @@ router.post("/", GamesCT.addOne);
 
 router.delete("/:id", GamesCT.deleteOne);
 
-router.patch("/:id", GamesCT.updateOne);
+router.put("/:id", GamesCT.updateOne);

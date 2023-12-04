@@ -29,19 +29,26 @@ export class GamesMd {
     return info.affectedRows;
   }
   static async updateOne(id, partialGame) {
-    let queryString = "";
+    const updates = [];
+    const values = [];
+
     for (const key in partialGame) {
-      queryString += `${key}='${partialGame[key]}',`;
+      if (key !== "id") {
+        updates.push(`${key} = ?`);
+        values.push(partialGame[key]);
+      }
     }
-    const result = await connection.query(
-      `UPDATE games SET ${queryString.slice(
-        0,
-        -1
-      )} WHERE games.id = UUID_TO_BIN(?)`,
-      [id]
-    );
+
+    values.push(id);
+
+    const queryString = `UPDATE games SET ${updates.join(
+      ","
+    )} WHERE games.id = UUID_TO_BIN(?)`;
+
+    const result = await connection.query(queryString, values);
     return result;
   }
+
   static async addOne(game) {
     const { title, year, developer, poster } = game;
 
